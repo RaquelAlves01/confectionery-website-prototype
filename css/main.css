@@ -54,3 +54,11 @@ header nav ul li a {
   color: #fff;
 }
 
+.more-info a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #e2e2e2;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+}
