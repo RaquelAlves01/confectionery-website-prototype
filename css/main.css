@@ -413,3 +413,104 @@ footer {
 
 }
 
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .logo {
+    margin: -.3em auto;
+    width: 10%;
+    display: inline-block;
+  }
+
+  header h1 {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  header nav ul li a {
+    float: left;
+    width: 25%;
+  }
+
+  main div {
+    margin: 0;
+    position: relative;
+  }
+
+  .more-info {
+    position: absolute;
+    width: 60%;
+    bottom: .5rem;
+    right: .5rem;
+    border-radius: 8px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  .box {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  aside li {
+    display: inline-block;
+    width: 35%;
+  }
+
+  .location-text {
+    position: absolute;
+    width: 40%;
+    left: 40%;
+    transform: translateX(-30%);
+    bottom: .3rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .1);
+  }
+
+  .location-text a {
+    background-color: #999;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .social-content img {
+    text-align: center;
+    width: 8%;
+  }
+
+  aside div ul {
+    padding-left: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  aside div ul li {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    float: left;
+    width: 25%;
+  }
+
+  .icon-img {
+    float: none;
+    margin: 1rem auto;
+  }
+
+}
+
