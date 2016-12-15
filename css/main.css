@@ -68,3 +68,14 @@ header nav ul li a {
   background-color: #999;
 }
 
+.more-info h2 {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 1.3rem;
+  margin-top: 0;
+  color: #fff;
+}
+
+.more-info .btn a {
+  text-decoration: none;
+}
+
