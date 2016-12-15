@@ -85,3 +85,9 @@ header nav ul li a {
   color: #fff;
 }
 
+header a:hover {
+  border: 2px solid #333;
+  background-color: #ccc;
+  color: #fff;
+}
+
