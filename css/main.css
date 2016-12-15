@@ -79,3 +79,9 @@ header nav ul li a {
   text-decoration: none;
 }
 
+.more-info p {
+  font-family: Georgia, serif;
+  font-size: .875rem;
+  color: #fff;
+}
+
