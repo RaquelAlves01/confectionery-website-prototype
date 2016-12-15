@@ -30,3 +30,11 @@ header {
   text-align: center;
 }
 
+.logo {
+  text-align: center;
+  margin: 0 auto;
+  width: 25%;
+  display: inline-block;
+}
+
+
