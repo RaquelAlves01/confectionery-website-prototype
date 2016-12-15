@@ -514,3 +514,100 @@ footer {
 
 }
 
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  header nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.5rem;
+  }
+
+  header nav ul li a {
+    display: block;
+    float: left;
+    width: 100%;
+    border: 2px solid #333;
+    background-color: #ccc;
+    margin: 0 .9em;
+  }
+
+  header nav ul li a:hover {
+    border: 2px solid #ccc;
+    background-color: #333;
+  }
+
+
+  header nav ul li {
+    float: left;
+    width: 25%;
+  }
+
+  header nav ul {
+    margin: 0;
+  }
+
+  .logo {
+    width: 5%;
+  }
+
+  header {
+    padding: .5rem 0;
+    background-color: #ccc;
+  }
+
+  main div {
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  main img {
+    position: relative;
+  }
+
+  .more-info {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 50%;
+
+  }
+
+  .box {
+    width: 25%;
+  }
+
+  .box-head {
+    padding: 0;
+  }
+
+  .icon-img {
+    width: 50px;
+  }
+
+  .location-text {
+    max-width: 25%;
+    left: 50%;
+    transform: translateX(-40%);
+    bottom: 1em;
+  }
+
+  .social-content {
+    display: none;
+  }
+
+  footer {
+    margin-top: 1rem;
+  }
+}
+
