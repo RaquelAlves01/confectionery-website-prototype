@@ -20,3 +20,9 @@ body {
   margin: 0;
   background-color: #ccc;
 }
+
+h1 {
+  font-family: "Aref Ruqaa", serif;
+  display: none;
+}
+
