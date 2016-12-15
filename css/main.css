@@ -91,3 +91,9 @@ header a:hover {
   color: #fff;
 }
 
+.more-info a:hover {
+  background-color: #666;
+  border-radius: 4px;
+  color: #fff;
+}
+
