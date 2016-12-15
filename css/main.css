@@ -162,3 +162,48 @@ section p {
   width: 100%;
 }
 
+.box {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.box:nth-child(2n) {
+  display: none;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.box-body {
+  padding: .2rem 1rem;
+  border: 1px solid #666;
+  background-color: #666;
+
+}
+
+.box-title {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.box-label {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  border-left: 4px solid #333;
+  background-color: rgba(255, 255, 255, .6);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.box-body p:hover {
+  color: #e2e2e2;
+}
+
+.box-head {
+  position: relative;
+  left: 0;
+  top: 0;
+}
