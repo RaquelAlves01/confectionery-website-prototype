@@ -141,3 +141,15 @@ aside .social-media {
   background-color: #aaa;
 }
 
+section h3 {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 1.175rem;
+  bottom: 2.5rem;
+}
+
+section p {
+  font-family: Georgia, serif;
+  margin: 0 1rem;
+  color: #fff;
+}
+
