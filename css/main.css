@@ -97,3 +97,9 @@ header a:hover {
   color: #fff;
 }
 
+header nav ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
