@@ -153,3 +153,12 @@ section p {
   color: #fff;
 }
 
+.section-box {
+  background-color: #ccc;
+}
+
+.box-img {
+  display: block;
+  width: 100%;
+}
+
