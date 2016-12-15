@@ -115,3 +115,15 @@ section img {
   width: 100%;
 }
 
+.boxes {
+  margin: 1em 0;
+}
+
+aside .social-media {
+  width: 100%;
+}
+
+.social-media a {
+  text-decoration: none;
+  margin-bottom: 1em;
+}
