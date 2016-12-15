@@ -321,3 +321,95 @@ footer {
   margin-bottom: 1rem;
 }
 
+@media only screen and (min-width: 25em) {
+
+  html {
+    font: normal 100%/1.3;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
+
+  header nav ul li a {
+    float: left;
+    width: 50%;
+  }
+
+  .box:nth-child(2n) {
+    display: inline-block;
+  }
+
+  .web-content {
+    display: inline;
+  }
+
+  .box-body {
+    border: 1px solid #999;
+    background-color: #999;
+  }
+
+  .responsive-icons {
+    margin: 0;
+  }
+
+  aside div ul {
+    padding-left: 0;
+    margin: 0;
+  }
+
+  aside div ul li {
+    text-align: left;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 1em;
+  }
+
+  .icon-img {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .text {
+    margin: 1.5em;
+  }
+
+  .icon-content {
+    bottom: 1px;
+    text-align: left;
+    display: inline-block;
+    margin-left: .7em;
+    margin-top: 0;
+    width: 75%;
+  }
+
+  .section-img {
+    max-width: 25rem;
+  }
+
+  .location {
+    text-align: center;
+  }
+
+  .location-text {
+    padding: 1em 2em;
+    margin: 0 .5em;
+  }
+
+  .social-content img {
+    width: 12%;
+  }
+
+  .social-content {
+    display: inline-block;
+  }
+
+  .scroll-top {
+    margin-right: 2em;
+  }
+
+}
+
