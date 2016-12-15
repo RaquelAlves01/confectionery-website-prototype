@@ -62,3 +62,9 @@ header nav ul li a {
   color: #000;
   text-decoration: none;
 }
+
+.more-info {
+  padding: 0 1em .5em;
+  background-color: #999;
+}
+
