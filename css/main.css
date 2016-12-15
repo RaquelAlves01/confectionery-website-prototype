@@ -313,3 +313,11 @@ aside div ul li a:hover {
   margin-top: 1rem;
 }
 
+footer {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: .825rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
