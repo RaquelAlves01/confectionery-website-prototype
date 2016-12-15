@@ -259,3 +259,45 @@ aside div ul li a:hover {
   color: #eee;
 }
 
+.section-img {
+  margin: 1em auto 0;
+  width: 100%;
+}
+
+.location-text {
+  display: inline-block;
+  margin: 0 2em 1em;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.location-text h5 {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 1em;
+  margin: 0;
+}
+
+.location-text p {
+  font-family: Georgia, serif;
+  margin: 0;
+  margin-bottom: .5rem;
+  color: #000;
+}
+
+.location-text a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+}
+
+.location-text a:hover {
+  background-color: #e2e2e2;
+  border-radius: 4px;
+  color: #000;
+}
+
