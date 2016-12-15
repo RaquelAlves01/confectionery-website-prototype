@@ -301,3 +301,15 @@ aside div ul li a:hover {
   color: #000;
 }
 
+.social-content {
+  display: inline-block;
+  text-align: center;
+}
+
+.social-content img {
+  width: 10%;
+  max-height: 30px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
