@@ -37,7 +37,6 @@ header {
   display: inline-block;
 }
 
-
 .btn {
   text-align: center;
 }
@@ -52,15 +51,16 @@ header {
 }
 
 header nav ul li a {
-  font-family: "Aref Ruqaa", serif;
-  font-size: 1.175rem;
-  float: left;
-  width: 100%;
   border: 2px solid #ccc;
   background-color: #333;
-  padding: 0 1em;
   text-decoration: none;
+}
+
+.pages-bar {
   color: #fff;
+  padding: 0 1em;
+  font-family: "Aref Ruqaa", serif;
+  font-size: 1.175rem;
 }
 
 header a:hover {
@@ -532,12 +532,9 @@ footer {
   }
 
   header nav ul li a {
-    display: block;
-    float: left;
     width: 100%;
     border: 2px solid #333;
     background-color: #ccc;
-    margin: 0 .9em;
   }
 
   header nav ul li a:hover {
@@ -547,7 +544,7 @@ footer {
 
   header nav ul li {
     float: left;
-    width: 25%;
+    margin: 0 .3rem;
   }
 
   header nav ul {
@@ -578,7 +575,6 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     max-width: 50%;
-
   }
 
   .box {
