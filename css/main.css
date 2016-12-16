@@ -337,8 +337,9 @@ footer {
     float: left;
     width: 50%;
   }
+  
   header ul {
-  overflow: hidden;
+    overflow: hidden;
   }
 
   .box:nth-child(2n) {
