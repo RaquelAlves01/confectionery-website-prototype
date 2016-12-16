@@ -54,6 +54,7 @@ header li a {
   border: 2px solid #ccc;
   background-color: #333;
   text-decoration: none;
+  display: block;
 }
 
 .pages-bar {
@@ -334,6 +335,9 @@ footer {
   header li a {
     float: left;
     width: 50%;
+  }
+  header ul {
+  overflow: hidden;
   }
 
   .box:nth-child(2n) {
