@@ -50,7 +50,7 @@ header {
   text-decoration: none;
 }
 
-header nav ul li a {
+header li a {
   border: 2px solid #ccc;
   background-color: #333;
   text-decoration: none;
@@ -241,7 +241,7 @@ aside ul li {
   padding: 0;
 }
 
-aside ul li a {
+aside li a {
   text-decoration: none;
   color: #000;
 }
@@ -254,7 +254,7 @@ aside p {
   margin: 0;
 }
 
-aside div ul li a:hover {
+aside li a:hover {
   color: #eee;
 }
 
@@ -331,7 +331,7 @@ footer {
     margin: 0 0 1.3rem;
   }
 
-  header nav ul li a {
+  header li a {
     float: left;
     width: 50%;
   }
@@ -358,7 +358,7 @@ footer {
     margin: 0;
   }
 
-  aside div ul li {
+  aside ul li {
     text-align: left;
     position: relative;
     display: block;
@@ -430,7 +430,7 @@ footer {
     margin-bottom: 0;
   }
 
-  header nav ul li a {
+  header li a {
     float: left;
     width: 25%;
   }
@@ -497,7 +497,7 @@ footer {
     overflow: hidden;
   }
 
-  aside div ul li {
+  aside ul li {
     text-align: center;
     position: relative;
     margin: 0 auto;
@@ -531,18 +531,18 @@ footer {
     margin-top: -.5rem;
   }
 
-  header nav ul li a {
+  header li a {
     width: 100%;
     border: 2px solid #333;
     background-color: #ccc;
   }
 
-  header nav ul li a:hover {
+  header li a:hover {
     border: 2px solid #ccc;
     background-color: #333;
   }
 
-  header nav ul li {
+  header ul li {
     float: left;
     margin: 0 .3rem;
   }
